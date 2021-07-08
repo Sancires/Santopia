@@ -17,7 +17,7 @@
 + For the best experience, use Fabric.
 ```
 
-  - Download the latest pack release [here]()
+  - Download the latest pack release [here](https://github.com/Sancires/Santopia/releases/latest)
   - Drag & Drop the .zip file to your Terra packs folder:
     - If on Bukkit: `~/plugins/Terra/packs`
     - If on Fabric  `~/config/Terra/packs`
