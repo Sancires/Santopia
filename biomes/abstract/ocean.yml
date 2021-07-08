@@ -5,10 +5,3 @@ variables:
   s: 36
 
 noise-equation: "(-y / s) + 1"
-
-slabs:
-  enable: true
-  threshold: 0.0075
-  palettes:
-    "minecraft:stone": "BLOCK:minecraft:stone_slab"
-    "minecraft:sand": "BLOCK:minecraft:sandstone_slab"
