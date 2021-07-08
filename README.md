@@ -10,6 +10,9 @@
   <br>
 </p>
 
+<h2 align=left>Biomes</h2>
+WIP - If anyone would be so kind to take shader pictures of Santopia biomes, please leave them in an issue.
+
 <h2 align=left>Installation</h2>
 
 ```diff
