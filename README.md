@@ -11,7 +11,24 @@
 </p>
 
 <h2 align=left>Biomes</h2>
-WIP - If anyone would be so kind to take shader pictures of Santopia biomes, please leave them in an issue.
+
+<details>
+  <summary>Pasture</summary>
+
+  ![pasture](https://user-images.githubusercontent.com/82296481/124997479-af4f9f80-e018-11eb-9aba-cfc733b24351.png)
+</details>
+
+<details>
+  <summary>Drylands</summary>
+  
+  ![drylands](https://user-images.githubusercontent.com/82296481/124997527-c7272380-e018-11eb-815e-3a7ded8c184b.png)
+</details>
+
+<details>
+  <summary>Willow Islands + Cerulean Sea</summary>
+  
+  ![willow_islands](https://user-images.githubusercontent.com/82296481/124997581-e1f99800-e018-11eb-8928-1234e7660e08.png)
+</details>
 
 <h2 align=left>Installation</h2>
 
