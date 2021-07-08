@@ -36,3 +36,8 @@ WIP - If anyone would be so kind to take shader pictures of Santopia biomes, ple
    level-type=Terra:SANTOPIA
    ```
    - If on Fabric singleplayer, just select `Terra:SANTOPIA` under world type.
+
+<br>
+<hr>
+
+***Disclaimer:*** This pack was made in about three and a half hours. Expect oddities, bugs, and other things that shouldn't happen.
