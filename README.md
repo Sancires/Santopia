@@ -30,6 +30,8 @@
   ![willow_islands](https://user-images.githubusercontent.com/82296481/124997581-e1f99800-e018-11eb-8928-1234e7660e08.png)
 </details>
 
+<i>Images provided by [FluffyPets](https://github.com/DestinyTheGreat)</i>
+
 <h2 align=left>Installation</h2>
 
 ```diff
