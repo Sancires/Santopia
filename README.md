@@ -13,7 +13,8 @@
 <h2 align=left>Installation</h2>
 
 ```diff
-+ Santopia supports 1.16.5 and 1.17
++ Santopia supports 1.16.5 and 1.17.
++ For the best experience, use Fabric.
 ```
 
   - Download the latest pack release [here]()
