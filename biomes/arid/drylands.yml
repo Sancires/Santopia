@@ -1,0 +1,41 @@
+id: "DRYLANDS"
+extends: "LAND"
+vanilla: DESERT
+
+elevation:
+  equation: "|(cubic2d(x, z) / 3)| + |(cellbor(x*1.25, z*1.25) / 4)|"
+
+tags:
+  - "CLIMATE:ARID"
+  - "LAND"
+
+colors:
+  water: 0xa1eef0
+  water-fog: 0xa1eef0
+  fog: 0xd9bb86
+  sky: 0x9f9fed
+  grass: 0x635a4e
+  foliage: 0x635a4e
+
+palette:
+  - BEDROCK: 3
+  - FLOOR: 61
+  - SHORE: 62
+  - DESERT: 255
+
+flora:
+# Land flora
+  - density: 2
+    items:
+      - DEAD_BUSH: 1
+    y:
+      min: 61
+      max: 255
+
+trees:
+  - density: 1.35
+    items:
+      - CACTUS: 1
+    y:
+      min: 61
+      max: 255

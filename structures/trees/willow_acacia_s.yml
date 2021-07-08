@@ -1,0 +1,8 @@
+id: "WILLOW_ACACIA_S"
+
+scripts:
+  - "willow_acacia_1": 1
+  - "willow_acacia_2": 1
+
+spawnable:
+  - "minecraft:grass_block"

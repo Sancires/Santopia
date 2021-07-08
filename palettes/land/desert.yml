@@ -1,0 +1,9 @@
+id: "DESERT"
+
+layers:
+  - materials: "minecraft:sand"
+    layers: 1
+  - materials: "minecraft:sandstone"
+    layers: 2
+  - materials: "minecraft:stone"
+    layers: 1

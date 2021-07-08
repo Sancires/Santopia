@@ -1,0 +1,65 @@
+id: "WILLOW_ISLANDS"
+extends: "LAND"
+vanilla: FOREST
+
+elevation:
+  equation: "(cubic2d(x, z) / 2)"
+
+tags:
+  - "CLIMATE:TEMPERATE"
+  - "LAND"
+
+colors:
+  water: 0x4a7e82
+  water-fog: 0x4a7e82
+  fog: 0xceebf0
+  sky: 0xa2cde0
+  grass: 0x5fad5f
+  foliage: 0x3ef53e
+
+palette:
+  - BEDROCK: 3
+  - FLOOR: 61
+  - SHORE: 62
+  - GRASS: 255
+
+flora:
+# Sea floor flora
+  - density: 50
+    items:
+      - TALL_SEAGRASS: 2
+      - SEAGRASS: 5
+    y:
+      min: 30
+      max: 60
+  # Land flora
+  - density: 40
+    items:
+      - TALL_GRASS: 15
+      - TALL_FERN: 20
+      - GRASS: 800
+      - FERN: 6
+      - SWEET_BERRY_BUSH: 4
+      - LILY_OF_THE_VALLEY: 2
+      - POPPY: 2
+      - LILAC: 1
+      - ROSE_BUSH: 1
+    y:
+      min: 63
+      max: 128
+  # Shore flora
+  - density: .625
+    items:
+      - SUGARCANE: 1
+    y:
+      min: 61
+      max: 63
+
+trees:
+  - density: .85
+    items:
+      - WILLOW_ACACIA_S: 3
+      - WILLOW_ACACIA_L: 1
+    y:
+      min: 63
+      max: 128

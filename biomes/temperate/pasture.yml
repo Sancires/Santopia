@@ -1,0 +1,38 @@
+id: "PASTURE"
+extends: "LAND"
+vanilla: PLAINS
+
+elevation:
+  equation: "|(cubic2d(x, z) / 3.75)|"
+
+tags:
+  - "CLIMATE:TEMPERATE"
+  - "LAND"
+  - "BEACHABLE"
+
+colors:
+  water: 0x59aed3
+  water-fog: 0x59aed3
+  fog: 0xd2fdfe
+  sky: 0xb1fcfe
+  grass: 0x91f715
+  foliage: 0xb3f715
+
+palette:
+  - BEDROCK: 3
+  - FLOOR: 61
+  - GRASS: 255
+
+flora:
+  # Land flora
+  - density: 50
+    items:
+      - GRASS: 900
+      - WHEAT: 100
+      - TALL_GRASS: 50
+      - DANDELION: 2
+      - POPPY: 2
+      - ALLIUM: 2
+    y:
+      min: 63
+      max: 128

@@ -1,0 +1,10 @@
+id: "FLOOR"
+
+layers:
+  - materials:
+      - "minecraft:gravel": 4
+      - "minecraft:dirt": 3
+      - "minecraft:sand": 3
+    layers: 2
+  - materials: "minecraft:stone"
+    layers: 1

@@ -1,0 +1,12 @@
+id: "SHORE"
+
+layers:
+  - materials: "minecraft:sand"
+    layers: 1
+  - materials:
+      - "minecraft:gravel": 2
+      - "minecraft:dirt": 3
+      - "minecraft:clay": 2
+    layers: 2
+  - materials: "minecraft:stone"
+    layers: 1

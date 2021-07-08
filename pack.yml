@@ -1,0 +1,98 @@
+id: "SANTOPIA"
+author: "Sancires"
+version: "1.0.0"
+
+variables:
+  b: 63
+
+noise:
+  cubic2d:
+    type: "FBM"
+    octaves: 3
+    dimensions: 2
+    function:
+      type: "VALUECUBIC"
+      frequency: 0.04
+  cellbor:
+    type: "CLAMP"
+    min: -.999
+    max: 1
+    function:
+      type: "DOMAINWARP"
+      dimensions: 2
+      amplitude: 25
+      function:
+        type: "CELLULAR"
+        frequency: 0.015
+        return: "Distance2Div"
+      warp:
+        frequency: 0.0115
+        type: "GABOR"
+        salt: 3
+
+biomes:
+  resolution: 4
+  type: "PIPELINE"
+  biome: "WILLOW_ISLANDS"
+  blend:
+    amplitude: 1.75
+    noise:
+      type: "OPENSIMPLEX2S"
+      frequency: 0.15
+  pipeline:
+    initial-size: 16
+    source:
+      type: NOISE
+      biomes:
+        - PASTURE: 2
+        - CERULEAN_SEA: 1
+      noise:
+        type: "OPENSIMPLEX2S"
+        frequency: 0.02
+    stages:
+      - mutate:
+          type: REPLACE
+          from: "BIOME:PASTURE"
+          to:
+            - "PASTURE": 12
+            - "DRYLANDS": 6
+          noise:
+            type: "OPENSIMPLEX2S"
+            salt: 2
+            frequency: 0.025
+      - mutate:
+          type: REPLACE
+          from: "BIOME:CERULEAN_SEA"
+          to:
+            - CERULEAN_SEA: 2
+            - WILLOW_ISLANDS: 2
+          noise:
+            type: "CELLULAR"
+            return: CellValue
+            frequency: 0.25
+            salt: 6
+      - expand:
+          type: "FRACTAL"
+          noise:
+            type: "WHITENOISE"
+            salt: 11
+      - expand:
+          type: "FRACTAL"
+          noise:
+            type: "WHITENOISE"
+            salt: 12
+      - mutate:
+          type: "SMOOTH"
+          noise:
+            type: "WHITENOISE"
+            salt: 18
+      - expand:
+          type: "FRACTAL"
+          noise:
+            type: "WHITENOISE"
+            salt: 11
+      - mutate:
+          type: "SMOOTH"
+          noise:
+            type: "WHITENOISE"
+            salt: 19
