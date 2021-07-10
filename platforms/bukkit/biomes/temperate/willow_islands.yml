@@ -1,6 +1,6 @@
 id: "WILLOW_ISLANDS"
 extends: "LAND"
-vanilla: FOREST
+vanilla: PLAINS
 
 elevation:
   equation: "(cubic2d(x, z) / 2)"
