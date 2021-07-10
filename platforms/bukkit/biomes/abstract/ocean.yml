@@ -2,6 +2,6 @@ id: "OCEAN"
 abstract: true
 
 variables:
-  s: 36
+  s: 41
 
 noise-equation: "(-y / s) + 1"
